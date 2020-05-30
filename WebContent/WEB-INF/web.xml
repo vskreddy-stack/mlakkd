@@ -1,0 +1,21 @@
+<web-app>
+  <servlet>
+    <servlet-name>data</servlet-name>
+    <servlet-class>serv.Send</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>data</servlet-name>
+    <url-pattern>/action1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>serv.fetch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/action2</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
